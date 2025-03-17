@@ -1,5 +1,3 @@
-from calc_program_time import program_time
-@program_time
 def cafe_management():
     #list of menu available
     menu = {"chat" : 45,
