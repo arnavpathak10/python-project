@@ -1,27 +1,5 @@
 import random
 import string
-"""#list of character to generate
-char = ["0","1","2","3","4","5","6","7","8","9","0",
-        "q","w","e","r","t","y","u","i","o","p","a",
-        "s","d","f","g","h","j","k","l","z","x","c",
-        "v","b","n","m",">","<",":","!","@","#","$",
-        "%","^","&","*","(",")","-","+","~","_","₹",
-        "|","?","A","B","C","D","E","F","G","H","I",
-        "J","K","L","M","N","O","P","Q","R","S","T",
-        "U","V","W","X","Y","Z"]
-
-password = [] #contains generated password
-
-def generate_password():
-    inp = int(input("Enter length of password to generate : ")) #length of password to generate
-    for _ in range(inp):
-        password.append(random.choice(char))
-    pwd = "".join(password)
-    print(f"Your Password is : {pwd}")
-
-generate_password() #function call"""
-
-
 
 def generate_password(min_length, var, is_digit = True, is_splchar = True):
     alphabet = string.ascii_letters
