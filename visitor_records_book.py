@@ -1,7 +1,7 @@
 import mysql.connector
 from time import sleep
 import datetime
-"""try:
+try:
     conn = mysql.connector.connect(user = "root", password = "root", host = "localhost", port = 3306)
     if(conn.is_connected()):
         print(True)
@@ -33,7 +33,7 @@ try:
 except:
     print("Unable to create table")
 mycur.close()
-connection.close()"""
+connection.close()
 
 #enter visitor records
 def insert_record(n, a, d, t, c):
